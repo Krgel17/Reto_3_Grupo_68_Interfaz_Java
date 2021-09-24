@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="487.0" style="-fx-background-color: #a9ebfc;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Pantallacontroller">
+   <children>
+      <Label layoutX="55.0" layoutY="38.0" text="Nombre:" />
+      <TextField fx:id="nombre" layoutX="49.0" layoutY="55.0" prefHeight="25.0" prefWidth="167.0" />
+      <Label layoutX="283.0" layoutY="38.0" text="ID:" />
+      <TextField fx:id="id" layoutX="283.0" layoutY="55.0" />
+      <Label layoutX="55.0" layoutY="104.0" text="Municipio:" />
+      <TextField fx:id="municipio" layoutX="49.0" layoutY="121.0" prefHeight="25.0" prefWidth="167.0" />
+      <Label layoutX="283.0" layoutY="104.0" text="Tipo de Cuerpo de Agua:" />
+      <TextField fx:id="tipocuerp" layoutX="283.0" layoutY="121.0" />
+      <Label layoutX="55.0" layoutY="176.0" text="Tipo de Agua:" />
+      <TextField fx:id="tipoagua" layoutX="49.0" layoutY="193.0" prefHeight="25.0" prefWidth="167.0" />
+      <Label layoutX="283.0" layoutY="176.0" text="Clasificación IRCA:" />
+      <TextField fx:id="clasirca" layoutX="283.0" layoutY="193.0" />
+      <Button fx:id="btningresar" layoutX="93.0" layoutY="242.0" mnemonicParsing="false" onAction="#ingresar" style="-fx-background-color: #40e385;" text="INGRESAR" />
+      <Button fx:id="btnprocesar" layoutX="313.0" layoutY="242.0" mnemonicParsing="false" onAction="#procesar" style="-fx-background-color: #40e385;" text="PROCESAR" />
+      <TextArea fx:id="mostrar1" editable="false" layoutX="34.0" layoutY="294.0" prefHeight="127.0" prefWidth="188.0" />
+      <TextArea fx:id="mostrar2" editable="false" layoutX="266.0" layoutY="294.0" prefHeight="127.0" prefWidth="188.0" />
+      <Button fx:id="btnLimpiar" layoutX="214.0" layoutY="450.0" mnemonicParsing="false" onAction="#Limpiar" style="-fx-background-color: #40e385;" text="LIMPIAR">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
